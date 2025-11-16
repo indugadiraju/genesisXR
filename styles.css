@@ -80,6 +80,13 @@ body::before {
     opacity: 0.95;
 }
 
+.recipe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* --- FEATURE LIST --- */
 .feature-list {
     list-style: square;
