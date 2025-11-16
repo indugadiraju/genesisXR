@@ -5,19 +5,33 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
+    background: url("images/planet_clouds.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: "Inter", sans-serif;
     background-color: #08071a; /* fallback */
     color: #e7e7f7;
     line-height: 1.6;
 }
 
+/* body {
+    font-family: "Inter", sans-serif;
+    background-color: #08071a; /* fallback */
+    color: #e7e7f7;
+    line-height: 1.6;
+} */
+
 /* --- HERO BACKGROUND SECTION --- */
 .hero {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url("assets/background.jpg") no-repeat center center/cover;
+    /* background: url("assets/background.jpg") no-repeat center center/cover; */
 }
 
 .overlay {
